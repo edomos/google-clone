@@ -7,19 +7,15 @@ function App() {
     //BEM
     <div className="app">
       <BrowserRouter>
-
         <Routes>
-          <Route exact path="/search" element={ <h1>This is the search page</h1> }/>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/search" element={<h1>This is the search page</h1>} />
         </Routes>
+      </BrowserRouter >
 
-        {/* Home (the one with the search on) */}
-        <Home />
-        {/* Search Page (Result Page) */}
-
-        </BrowserRouter >
     </div>
-      
-      );
+
+  );
 }
 
 export default App;
