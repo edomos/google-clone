@@ -32,7 +32,7 @@ const Home = () => {
                 </div>
                 <div className="row">
                     <div className="home__input--container">
-                        <Search hideButtons />
+                        <Search />
                     </div>
                 </div>
             </div>
